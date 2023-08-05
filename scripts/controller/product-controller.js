@@ -53,6 +53,7 @@ function removeFromCart(){
     const product=productOperations.search(pizzaId);
     if (product.pizzaNum==1){
         product.isAddedInCart=false;
+        product.pizzaNum=0;
     }
     else{
         product.pizzaNum-=1;
