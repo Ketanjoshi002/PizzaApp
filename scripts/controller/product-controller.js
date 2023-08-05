@@ -68,7 +68,7 @@ function preparePizzaCard(pizza){
     colDiv.className='col-4';
     const cardDiv=document.createElement('div');
     cardDiv.className='card';
-    cardDiv.style = "width: 18rem;";
+    cardDiv.style = "width: 18rem;height=30px;";
     colDiv.appendChild(cardDiv);
     const img=document.createElement('img');
     img.src=pizza.url;
